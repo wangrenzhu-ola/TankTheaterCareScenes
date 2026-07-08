@@ -18,6 +18,9 @@
   "repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes",
   "xcodeproj_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes.xcodeproj",
   "commit_refs": [
+    "635305672bd3aac8b57054105600bbec18ccc400 Record TankTheater GitHub public repo evidence",
+    "b6cbcf6bce1cf86933ccf9e88c7f71df6d6669fc Update TankTheater public repo URL",
+    "8470b0d7d1d296fbbdd303f047a9b5d63dacd3d6 Record TankTheater delivery evidence summary",
     "894dd80723e27be7f2d6c98a01fb305e11149d60 Add TankTheater build and runtime evidence",
     "b543708ac22afd080db2fa8bba5e9be49f0d601b Import Combine for observable stores",
     "de28c3cbc4d2c8763048eb4d5f3dedb41473a24d Fix TankTheater shared Xcode scheme",
