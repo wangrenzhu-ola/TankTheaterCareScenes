@@ -1,0 +1,96 @@
+{
+  "schema_version": "appfactory.ultraqa.report.v1",
+  "status": "PASS_WITH_PATCHBACK_EVIDENCE",
+  "ultraqa_status": "PASS",
+  "scenario_matrix_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/scenario_matrix.json",
+  "fresh_runtime_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/runtime_crud_persistence_readback.log",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_persistence_readback.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_relaunch_readback.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/simulator_install_launch.log"
+  ],
+  "scenario_matrix": [
+    {
+      "id": "REQ-CRUD-001",
+      "status": "source_and_unit_pass",
+      "evidence": [
+        "CareSceneStudioView.swift",
+        "CareSceneDetailView.swift",
+        "CareSceneStore.swift",
+        "evidence/xcodebuild_test.log"
+      ]
+    },
+    {
+      "id": "REQ-PERSIST-001",
+      "status": "runtime_readback_pass",
+      "evidence": [
+        "evidence/runtime_crud_persistence_readback.log",
+        "evidence/tanktheater_persistence_readback.png",
+        "evidence/tanktheater_relaunch_readback.png"
+      ]
+    },
+    {
+      "id": "REQ-VIS-001",
+      "status": "runtime_visual_pass",
+      "evidence": [
+        "evidence/tanktheater_launch.png",
+        "evidence/tanktheater_persistence_readback.png",
+        "VisualComponents.swift"
+      ]
+    },
+    {
+      "id": "REQ-EMPTY-001",
+      "status": "runtime_pass",
+      "evidence": [
+        "evidence/tanktheater_launch.png",
+        "HomeView.swift"
+      ]
+    },
+    {
+      "id": "REQ-ERROR-001",
+      "status": "source_pass",
+      "evidence": [
+        "CareSceneStudioView.swift",
+        "PaywallView.swift",
+        "PremiumStore.swift"
+      ]
+    },
+    {
+      "id": "REQ-PRIVACY-001",
+      "status": "source_pass",
+      "evidence": [
+        "SettingsPrivacyView.swift",
+        "Docs/PrivacyPolicy.md",
+        "evidence/ios_compliance_acceptance.json"
+      ]
+    },
+    {
+      "id": "REQ-PREMIUM-001",
+      "status": "source_storekit_pass",
+      "evidence": [
+        "PaywallView.swift",
+        "PremiumStore.swift",
+        "TankTheaterCareScenes/StoreKit/TankTheaterCareScenes.storekit",
+        "evidence/ios_iap_acceptance.json"
+      ]
+    },
+    {
+      "id": "REQ-AI-001",
+      "status": "source_pass",
+      "evidence": [
+        "CareSceneStudioView.swift",
+        "CareSceneEngine.swift",
+        "SettingsPrivacyView.swift"
+      ]
+    },
+    {
+      "id": "REQ-APPINTENT-001",
+      "status": "compile_pass",
+      "evidence": [
+        "CareSceneIntents.swift",
+        "evidence/xcodebuild_build.log"
+      ]
+    }
+  ],
+  "blockers": []
+}

@@ -1,0 +1,9 @@
+{
+  "skill": "ios-app-intents",
+  "status": "build_metadata_pass",
+  "intent_source_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneIntents.swift",
+  "handoff": "DraftCareSceneIntent writes pendingCareSceneTitle and opens app; app consumes it into editable draft without autonomous save.",
+  "manual_fallback": "CareSceneStudioView remains a complete manual entry path.",
+  "build_evidence_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_build.log",
+  "blocker": "none"
+}

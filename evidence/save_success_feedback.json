@@ -1,0 +1,10 @@
+{
+  "status": "source_pass_runtime_pending",
+  "source_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStore.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/AppView.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/VisualComponents.swift"
+  ],
+  "copy": "Care Scene saved.",
+  "blocker": "none"
+}

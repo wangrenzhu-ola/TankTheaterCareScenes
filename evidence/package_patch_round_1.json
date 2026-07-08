@@ -1,0 +1,14 @@
+{
+  "round": 1,
+  "finalgate_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/final_gate_verdict.json",
+  "patchback_items_addressed": [
+    "repo_dirty",
+    "local_git_readback",
+    "artifact_sha256",
+    "ultraqa_report",
+    "scenario_matrix",
+    "ios-app-intents evidence",
+    "save success feedback"
+  ],
+  "status": "patched_pending_finalgate_rerun"
+}

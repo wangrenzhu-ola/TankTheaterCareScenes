@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "visual_asset_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_persistence_readback.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/VisualComponents.swift"
+  ],
+  "required_slots": [
+    "miniature tank stage",
+    "water cue color",
+    "saved care scene comparison"
+  ]
+}

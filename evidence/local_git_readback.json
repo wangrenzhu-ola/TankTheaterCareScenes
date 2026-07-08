@@ -1,0 +1,16 @@
+{
+  "repo_path": "/Users/wangrenzhu/work/TankTheaterCareScenes",
+  "branch": "main",
+  "head_before_evidence_commit": "72b55db3cc67d0c0f539746e14455b78baa18e58",
+  "status_short_before_evidence_commit": [
+    "M evidence/xcodebuild_build.log",
+    " M evidence/xcodebuild_test.log",
+    "?? evidence/TankTheaterCareScenes-simulator-app.zip",
+    "?? evidence/artifact_sha256.txt",
+    "?? evidence/runtime_crud_persistence_readback.log",
+    "?? evidence/tanktheater_persistence_readback.png",
+    "?? evidence/tanktheater_relaunch_readback.png"
+  ],
+  "remote_url": "git@github.com:wangrenzhu-ola/TankTheaterCareScenes.git",
+  "repo_scope": "package_goal_source_only"
+}

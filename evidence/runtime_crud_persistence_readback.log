@@ -1,0 +1,12 @@
+device=E4BA1667-1115-4D1E-9BFB-C6F999A09705
+data_container=/Users/wangrenzhu/Library/Developer/CoreSimulator/Devices/E4BA1667-1115-4D1E-9BFB-C6F999A09705/data/Containers/Data/Application/45C5D6CD-9195-4628-9431-9B1EF971D09C
+com.tanktheater.carescenes: 80724
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: 0841A303-EA97-4660-8C72-B1EEC897B5CA (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_persistence_readback.png
+persistence_screenshot=evidence/tanktheater_persistence_readback.png
+com.tanktheater.carescenes: 81888
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: 0841A303-EA97-4660-8C72-B1EEC897B5CA (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_relaunch_readback.png
+relaunch_screenshot=evidence/tanktheater_relaunch_readback.png
