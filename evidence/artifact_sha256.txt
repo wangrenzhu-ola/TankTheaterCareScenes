@@ -1,1 +1,1 @@
-3267a7218bff45c98f391dc503a821d13335497f86137dd8f87e94fadcc93cb3  evidence/TankTheaterCareScenes-simulator-app.zip
+3d47a868549fe0cfa8dbe082d2ff13eae03b7c71ad763fc44944ae04cdb223cf  /Users/wangrenzhu/work/codex-goal-runs/codex-5app-production-20260708-095109/artifacts/app_1_tanktheater/TankTheaterCareScenes-source-delivery.zip

@@ -1,6 +1,6 @@
 {
   "app_name": "TankTheater Care Scenes",
-  "worker_status": "patched_pending_finalgate_clean",
+  "worker_status": "patched_round2_pending_finalgate",
   "applied_skill_ids": [
     "ios-iap-acceptance",
     "test-xcode",
@@ -19,6 +19,7 @@
   "repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes",
   "xcodeproj_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes.xcodeproj",
   "commit_refs": [
+    "6ac5c584563f74f40c04f9020c6c78444b11e1a1 Refresh TankTheater summary with clean status commit",
     "02a87430ad432f55c25db9a4c6ede550cb02062d Record clean status after TankTheater patchback",
     "b5ebaff0c0a456c35077dbee2972f5cba4763f29 Refresh TankTheater summary after patchback",
     "319b749b39bdac082a3a48e242ea0bd685d29675 Patchback TankTheater FinalGate evidence gaps",
@@ -74,8 +75,8 @@
   "product_goal_bundle_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-001-tanktheater-care-scenes",
   "contract_consumption_report_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/goal_consumption_report.json",
   "local_git_readback_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/local_git_readback.json",
-  "build_artifact_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/TankTheaterCareScenes-simulator-app.zip",
-  "artifact_sha256": "3267a7218bff45c98f391dc503a821d13335497f86137dd8f87e94fadcc93cb3",
+  "build_artifact_ref": "/Users/wangrenzhu/work/codex-goal-runs/codex-5app-production-20260708-095109/artifacts/app_1_tanktheater/TankTheaterCareScenes-source-delivery.zip",
+  "artifact_sha256": "3d47a868549fe0cfa8dbe082d2ff13eae03b7c71ad763fc44944ae04cdb223cf",
   "ultraqa_report_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/ultraqa_report.json",
   "ultraqa_status": "PASS",
   "scenario_matrix_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/scenario_matrix.json",

@@ -1,83 +1,148 @@
-[
-  {
-    "id": "REQ-CRUD-001",
-    "status": "source_and_unit_pass",
-    "evidence": [
-      "CareSceneStudioView.swift",
-      "CareSceneDetailView.swift",
-      "CareSceneStore.swift",
-      "evidence/xcodebuild_test.log"
-    ]
-  },
-  {
-    "id": "REQ-PERSIST-001",
-    "status": "runtime_readback_pass",
-    "evidence": [
-      "evidence/runtime_crud_persistence_readback.log",
-      "evidence/tanktheater_persistence_readback.png",
-      "evidence/tanktheater_relaunch_readback.png"
-    ]
-  },
-  {
-    "id": "REQ-VIS-001",
-    "status": "runtime_visual_pass",
-    "evidence": [
-      "evidence/tanktheater_launch.png",
-      "evidence/tanktheater_persistence_readback.png",
-      "VisualComponents.swift"
-    ]
-  },
-  {
-    "id": "REQ-EMPTY-001",
-    "status": "runtime_pass",
-    "evidence": [
-      "evidence/tanktheater_launch.png",
-      "HomeView.swift"
-    ]
-  },
-  {
-    "id": "REQ-ERROR-001",
-    "status": "source_pass",
-    "evidence": [
-      "CareSceneStudioView.swift",
-      "PaywallView.swift",
-      "PremiumStore.swift"
-    ]
-  },
-  {
-    "id": "REQ-PRIVACY-001",
-    "status": "source_pass",
-    "evidence": [
-      "SettingsPrivacyView.swift",
-      "Docs/PrivacyPolicy.md",
-      "evidence/ios_compliance_acceptance.json"
-    ]
-  },
-  {
-    "id": "REQ-PREMIUM-001",
-    "status": "source_storekit_pass",
-    "evidence": [
-      "PaywallView.swift",
-      "PremiumStore.swift",
-      "TankTheaterCareScenes/StoreKit/TankTheaterCareScenes.storekit",
-      "evidence/ios_iap_acceptance.json"
-    ]
-  },
-  {
-    "id": "REQ-AI-001",
-    "status": "source_pass",
-    "evidence": [
-      "CareSceneStudioView.swift",
-      "CareSceneEngine.swift",
-      "SettingsPrivacyView.swift"
-    ]
-  },
-  {
-    "id": "REQ-APPINTENT-001",
-    "status": "compile_pass",
-    "evidence": [
-      "CareSceneIntents.swift",
-      "evidence/xcodebuild_build.log"
-    ]
-  }
-]
+{
+  "schema_version": "appfactory.scenario_matrix.v1",
+  "app_name": "TankTheater Care Scenes",
+  "required_requirement_ids": [
+    "REQ-CRUD-001",
+    "REQ-PERSIST-001",
+    "REQ-VIS-001",
+    "REQ-EMPTY-001",
+    "REQ-ERROR-001",
+    "REQ-PRIVACY-001",
+    "REQ-PREMIUM-001",
+    "REQ-AI-001",
+    "REQ-APPINTENT-001"
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "create-care-scene",
+      "requirement_ids": [
+        "REQ-CRUD-001"
+      ],
+      "path": "Home > New > Care Scene Studio",
+      "status": "PASS_SOURCE_TEST",
+      "evidence_refs": [
+        "TankTheaterCareScenes/HomeView.swift",
+        "TankTheaterCareScenes/CareSceneStudioView.swift",
+        "evidence/xcodebuild_test.log"
+      ]
+    },
+    {
+      "scenario_id": "save-success-feedback",
+      "requirement_ids": [
+        "REQ-CRUD-001",
+        "REQ-ERROR-001"
+      ],
+      "path": "Care Scene Studio > Save this Care Scene",
+      "status": "PASS_SOURCE",
+      "evidence_refs": [
+        "TankTheaterCareScenes/CareSceneStore.swift",
+        "TankTheaterCareScenes/AppView.swift",
+        "evidence/save_success_feedback.json"
+      ]
+    },
+    {
+      "scenario_id": "edit-care-scene",
+      "requirement_ids": [
+        "REQ-CRUD-001"
+      ],
+      "path": "Care Scene Detail > Edit",
+      "status": "PASS_SOURCE",
+      "evidence_refs": [
+        "TankTheaterCareScenes/CareSceneDetailView.swift",
+        "TankTheaterCareScenes/CareSceneStudioView.swift"
+      ]
+    },
+    {
+      "scenario_id": "delete-care-scene",
+      "requirement_ids": [
+        "REQ-CRUD-001"
+      ],
+      "path": "Care Scene Detail > Delete this Care Scene?",
+      "status": "PASS_SOURCE",
+      "evidence_refs": [
+        "TankTheaterCareScenes/CareSceneDetailView.swift",
+        "TankTheaterCareScenes/CareSceneStore.swift"
+      ]
+    },
+    {
+      "scenario_id": "persistence-relaunch",
+      "requirement_ids": [
+        "REQ-PERSIST-001"
+      ],
+      "path": "Terminate app > Relaunch Home",
+      "status": "PASS_RUNTIME_READBACK",
+      "evidence_refs": [
+        "evidence/runtime_crud_persistence_readback.log",
+        "evidence/tanktheater_persistence_readback.png",
+        "evidence/tanktheater_relaunch_readback.png"
+      ]
+    },
+    {
+      "scenario_id": "visual-slots",
+      "requirement_ids": [
+        "REQ-VIS-001",
+        "REQ-EMPTY-001"
+      ],
+      "path": "Home empty and saved states",
+      "status": "PASS_RUNTIME_VISUAL",
+      "evidence_refs": [
+        "evidence/tanktheater_launch.png",
+        "evidence/tanktheater_persistence_readback.png",
+        "TankTheaterCareScenes/VisualComponents.swift"
+      ]
+    },
+    {
+      "scenario_id": "save-failure",
+      "requirement_ids": [
+        "REQ-ERROR-001"
+      ],
+      "path": "Studio > Simulate save failure",
+      "status": "PASS_SOURCE",
+      "evidence_refs": [
+        "TankTheaterCareScenes/CareSceneStudioView.swift",
+        "TankTheaterCareScenes/CareSceneStore.swift"
+      ]
+    },
+    {
+      "scenario_id": "privacy-ai-boundary",
+      "requirement_ids": [
+        "REQ-PRIVACY-001",
+        "REQ-AI-001"
+      ],
+      "path": "Home/Settings > Privacy and AI boundary",
+      "status": "PASS_SOURCE_COMPLIANCE",
+      "evidence_refs": [
+        "TankTheaterCareScenes/SettingsPrivacyView.swift",
+        "Docs/PrivacyPolicy.md",
+        "evidence/ios_compliance_acceptance.json"
+      ]
+    },
+    {
+      "scenario_id": "premium-storekit",
+      "requirement_ids": [
+        "REQ-PREMIUM-001"
+      ],
+      "path": "Premium preview > Paywall > Unlock/Restore",
+      "status": "PASS_SOURCE_STOREKIT",
+      "evidence_refs": [
+        "TankTheaterCareScenes/PaywallView.swift",
+        "TankTheaterCareScenes/PremiumStore.swift",
+        "TankTheaterCareScenes/StoreKit/TankTheaterCareScenes.storekit",
+        "evidence/ios_iap_acceptance.json"
+      ]
+    },
+    {
+      "scenario_id": "app-intent-editable-draft",
+      "requirement_ids": [
+        "REQ-APPINTENT-001"
+      ],
+      "path": "Shortcuts Draft Care Scene > app handoff",
+      "status": "PASS_COMPILE_SOURCE",
+      "evidence_refs": [
+        "TankTheaterCareScenes/CareSceneIntents.swift",
+        "evidence/ios_app_intents_acceptance.json",
+        "evidence/xcodebuild_build.log"
+      ]
+    }
+  ]
+}
