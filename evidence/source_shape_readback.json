@@ -1,0 +1,20 @@
+{
+  "xcodeproj_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes.xcodeproj/project.pbxproj",
+  "package_manifest_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/ios/package_manifest.json",
+  "package_swift_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/Package.swift",
+  "privacy_manifest_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PrivacyInfo.xcprivacy",
+  "storekit_config_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/StoreKit/TankTheaterCareScenes.storekit",
+  "premium_source_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PremiumStore.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PaywallView.swift"
+  ],
+  "privacy_source_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/SettingsPrivacyView.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/Docs/PrivacyPolicy.md"
+  ],
+  "interaction_source_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStudioView.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneDetailView.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStore.swift"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "skill": "ios-iap-acceptance",
+  "status": "passed_source_and_storekit_readback",
+  "monetization_model": "premium_unlock",
+  "product_id": "com.tanktheater.carescenes.premium.unlock",
+  "storekit_config_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/StoreKit/TankTheaterCareScenes.storekit",
+  "purchase_trigger_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PaywallView.swift",
+  "entitlement_state_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PremiumStore.swift",
+  "free_core_loop_not_paywalled": true,
+  "smoke_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_test.log",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/simulator_install_launch.log"
+  ],
+  "blocker": "none"
+}

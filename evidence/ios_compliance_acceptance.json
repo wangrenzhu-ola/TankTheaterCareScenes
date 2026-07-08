@@ -1,0 +1,12 @@
+{
+  "skill": "ios-compliance-acceptance",
+  "status": "passed_static_readback",
+  "privacy_manifest_exists": true,
+  "declared_permissions": "no camera/photo/microphone/location/ATT permissions declared; product does not require them",
+  "privacy_copy_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/SettingsPrivacyView.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/Docs/PrivacyPolicy.md"
+  ],
+  "local_storage_disclosure": "Care Scenes, drafts, privacy choices, and premium state are on-device; export/delete controls are visible.",
+  "blocker": "none"
+}

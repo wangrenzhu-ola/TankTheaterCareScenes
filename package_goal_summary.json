@@ -1,0 +1,53 @@
+{
+  "app_name": "TankTheater Care Scenes",
+  "worker_status": "stable_pending_finalgate",
+  "applied_skill_ids": [
+    "build-ios-apps",
+    "test-xcode",
+    "swiftui-ui-patterns",
+    "swiftui-view-refactor",
+    "taste-skill",
+    "ios-iap-implementation",
+    "ios-iap-acceptance",
+    "ios-privacy-implementation",
+    "ios-compliance-acceptance",
+    "ios_runtime_acceptance"
+  ],
+  "package_goal_map_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-001-tanktheater-care-scenes/package_goal_map.md",
+  "repo_path": "/Users/wangrenzhu/work/TankTheaterCareScenes",
+  "repo_url": null,
+  "xcodeproj_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes.xcodeproj",
+  "commit_refs": [
+    "894dd80723e27be7f2d6c98a01fb305e11149d60 Add TankTheater build and runtime evidence",
+    "b543708ac22afd080db2fa8bba5e9be49f0d601b Import Combine for observable stores",
+    "de28c3cbc4d2c8763048eb4d5f3dedb41473a24d Fix TankTheater shared Xcode scheme",
+    "c730cb205c94da1bcb42b516d3764c42c194b754 Build TankTheater Care Scenes SwiftUI app"
+  ],
+  "build_ios_apps_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/source_shape_readback.json",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_list.log",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_build.log"
+  ],
+  "test_xcode_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_test.log",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/simulator_install_launch.log",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png"
+  ],
+  "xcode_runtime_result_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcode_runtime_report.json",
+  "iap_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/ios_iap_acceptance.json"
+  ],
+  "compliance_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/ios_compliance_acceptance.json"
+  ],
+  "skill_evidence_refs": {
+    "skills/ios-iap-acceptance/SKILL.md": "ios-iap-acceptance",
+    "skills/ios-compliance-acceptance/SKILL.md": "ios-compliance-acceptance"
+  },
+  "implemented_with_real_interaction": true,
+  "persistence_implemented": true,
+  "sample_data_only": false,
+  "static_ui_only": false,
+  "known_gaps": [],
+  "blockers": []
+}
