@@ -1,0 +1,18 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -list -project TankTheaterCareScenes.xcodeproj
+
+Information about project "TankTheaterCareScenes":
+    Targets:
+        TankTheaterCareScenes
+        TankTheaterCareScenesTests
+
+    Build Configurations:
+        Debug
+        Release
+
+    If no build configuration is specified and -scheme is not passed then "Release" is used.
+
+    Schemes:
+        SoapSwirlStudio
+        TankTheaterCareScenes
+
