@@ -1,0 +1,13 @@
+{
+  "xcode_runtime": "launched_on_booted_simulator",
+  "bundle_identifier": "com.tanktheater.carescenes",
+  "app_path": "/Users/wangrenzhu/work/TankTheaterCareScenes/build/DerivedData/Build/Products/Debug-iphonesimulator/TankTheaterCareScenes.app",
+  "screenshot_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png",
+  "install_launch_log_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/simulator_install_launch.log",
+  "accessibility_source_refs": [
+    "TankTheaterCareScenes/HomeView.swift",
+    "TankTheaterCareScenes/CareSceneStudioView.swift",
+    "TankTheaterCareScenes/PaywallView.swift"
+  ],
+  "runtime_blocker": "none"
+}

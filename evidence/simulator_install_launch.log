@@ -1,0 +1,91 @@
+Booted simulators before launch:
+== Devices ==
+-- iOS 26.4 --
+-- iOS 26.5 --
+Using device E4BA1667-1115-4D1E-9BFB-C6F999A09705
+com.tanktheater.carescenes: 236
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: 0841A303-EA97-4660-8C72-B1EEC897B5CA (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png
+screenshot=evidence/tanktheater_launch.png
+getpwuid_r did not find a match for uid 501
+2026-07-08 10:00:17.464 Df TankTheaterCareScenes[236:e89bffe] [com.apple.xpc:connection] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89c015] [com.apple.BackBoard:EventDelivery] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89bffe] [com.apple.BackBoard:EventDelivery] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:EventDeferring] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.465 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.466 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.466 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.466 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.510 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:Orientation] <compose failure [shared UUID]>
+2026-07-08 10:00:17.522 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.522 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.522 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.522 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.522 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:EventDeferring] <compose failure [shared UUID]>
+2026-07-08 10:00:17.523 Df TankTheaterCareScenes[236:e89c01d] [com.apple.BackBoard:EventDelivery] <compose failure [shared UUID]>
+2026-07-08 10:00:17.523 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.524 Df TankTheaterCareScenes[236:e89c01d] [com.apple.BackBoard:EventDelivery] <compose failure [shared UUID]>
+2026-07-08 10:00:17.524 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:AppLifecycle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.525 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:Application] <compose failure [shared UUID]>
+2026-07-08 10:00:17.525 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:Application] <compose failure [shared UUID]>
+2026-07-08 10:00:17.525 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:Application] <compose failure [shared UUID]>
+2026-07-08 10:00:17.525 Df TankTheaterCareScenes[236:e89bffe] [com.apple.FrontBoard:SceneExtension] <compose failure [shared UUID]>
+2026-07-08 10:00:17.525 Df TankTheaterCareScenes[236:e89c015] [com.apple.UIIntelligenceSupport:xpc] <compose failure [shared UUID]>
+2026-07-08 10:00:17.525 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.526 Df TankTheaterCareScenes[236:e89c015] [com.apple.xpc:session] <compose failure [shared UUID]>
+2026-07-08 10:00:17.526 Df TankTheaterCareScenes[236:e89c015] [com.apple.xpc:session] <compose failure [shared UUID]>
+2026-07-08 10:00:17.526 Df TankTheaterCareScenes[236:e89c015] [com.apple.xpc:connection] <compose failure [shared UUID]>
+2026-07-08 10:00:17.526 Df TankTheaterCareScenes[236:e89c015] [com.apple.xpc:session] <compose failure [shared UUID]>
+2026-07-08 10:00:17.529 A  TankTheaterCareScenes[236:e89bffe] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
+2026-07-08 10:00:17.581 Df TankTheaterCareScenes[236:e89c01d] [com.apple.xpc:connection] <compose failure [shared UUID]>
+2026-07-08 10:00:17.687 Df TankTheaterCareScenes[236:e89bffe] [PrototypeTools:domain] <compose failure [shared UUID]>
+2026-07-08 10:00:17.744 A  TankTheaterCareScenes[236:e89c017] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
+2026-07-08 10:00:17.746 Df TankTheaterCareScenes[236:e89c017] [com.apple.xpc:connection] <compose failure [shared UUID]>
+2026-07-08 10:00:17.794 Df TankTheaterCareScenes[236:e89bffe] [com.apple.xpc:connection] <compose failure [shared UUID]>
+2026-07-08 10:00:17.802 A  TankTheaterCareScenes[236:e89c015] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
+2026-07-08 10:00:17.803 Df TankTheaterCareScenes[236:e89bffe] [com.apple.xpc:connection] <compose failure [shared UUID]>
+2026-07-08 10:00:17.806 A  TankTheaterCareScenes[236:e89c015] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
+2026-07-08 10:00:17.811 A  TankTheaterCareScenes[236:e89c017] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
+2026-07-08 10:00:17.820 Df TankTheaterCareScenes[236:e89bffe] [com.apple.network:activity] <compose failure [shared UUID]>
+2026-07-08 10:00:17.820 Df TankTheaterCareScenes[236:e89bffe] [com.apple.network:activity] <compose failure [shared UUID]>
+2026-07-08 10:00:17.820 Df TankTheaterCareScenes[236:e89bffe] [com.apple.network:activity] <compose failure [shared UUID]>
+2026-07-08 10:00:17.820 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
+2026-07-08 10:00:17.820 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
+2026-07-08 10:00:17.820 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
+2026-07-08 10:00:17.821 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:UpdateScheduler] <compose failure [shared UUID]>
+2026-07-08 10:00:17.821 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:AppLifecycle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.821 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.824 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:EventDeferring] <compose failure [shared UUID]>
+2026-07-08 10:00:17.824 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
+2026-07-08 10:00:17.824 Df TankTheaterCareScenes[236:e89bffe] [com.apple.FrontBoard:SceneExtension] <compose failure [shared UUID]>
+2026-07-08 10:00:17.825 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.825 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.826 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:AppLifecycle] <compose failure [shared UUID]>
+2026-07-08 10:00:17.826 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:Application] <compose failure [shared UUID]>
+2026-07-08 10:00:17.826 Df TankTheaterCareScenes[236:e89bffe] [com.apple.KeyboardArbiter:Client] <compose failure [shared UUID]>
+2026-07-08 10:00:17.828 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:Application] <compose failure [shared UUID]>
+2026-07-08 10:00:17.828 Df TankTheaterCareScenes[236:e89bffe] [com.apple.KeyboardArbiter:Client] <compose failure [shared UUID]>
+2026-07-08 10:00:17.828 Df TankTheaterCareScenes[236:e89bffe] [com.apple.xpc:connection] <compose failure [shared UUID]>
+2026-07-08 10:00:17.829 Df TankTheaterCareScenes[236:e89bffe] [com.apple.KeyboardArbiter:Client] <compose failure [shared UUID]>
+2026-07-08 10:00:17.833 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyboardSceneDelegate] <compose failure [shared UUID]>
+2026-07-08 10:00:17.833 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyboardSceneDelegate] <compose failure [shared UUID]>
+2026-07-08 10:00:17.833 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:KeyboardArbiterClientLog] <compose failure [shared UUID]>
+2026-07-08 10:00:17.887 Df TankTheaterCareScenes[236:e89bffe] [com.apple.network:activity] <compose failure [shared UUID]>
+2026-07-08 10:00:17.887 Df TankTheaterCareScenes[236:e89bffe] [com.apple.network:activity] <compose failure [shared UUID]>
+2026-07-08 10:00:17.887 Df TankTheaterCareScenes[236:e89bffe] [com.apple.network:activity] <compose failure [shared UUID]>
+2026-07-08 10:00:17.887 Df TankTheaterCareScenes[236:e89bffe] [com.apple.network:activity] <compose failure [shared UUID]>
+2026-07-08 10:00:17.887 Df TankTheaterCareScenes[236:e89bffe] [com.apple.app_launch_measurement:ApplicationLaunch] <compose failure [shared UUID]>
+2026-07-08 10:00:17.970 Df TankTheaterCareScenes[236:e89bffe] [com.apple.Accessibility:AXCommon] <compose failure [shared UUID]>
+2026-07-08 10:00:17.971 Df TankTheaterCareScenes[236:e89c017] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
+2026-07-08 10:00:17.971 Df TankTheaterCareScenes[236:e89c017] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
+2026-07-08 10:00:17.971 Df TankTheaterCareScenes[236:e89c017] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
+2026-07-08 10:00:17.971 Df TankTheaterCareScenes[236:e89c017] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
+2026-07-08 10:00:18.568 A  TankTheaterCareScenes[236:e89c017] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
+2026-07-08 10:00:20.063 Df TankTheaterCareScenes[236:e89bffe] [com.apple.UIKit:AppLifecycle] <compose failure [shared UUID]>
+2026-07-08 10:00:20.979 Df TankTheaterCareScenes[236:e89bffe] [com.apple.KeyboardArbiter:Client] <compose failure [shared UUID]>
