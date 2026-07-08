@@ -1,6 +1,6 @@
 {
   "app_name": "TankTheater Care Scenes",
-  "worker_status": "stable_pending_finalgate",
+  "worker_status": "github_pushed_pending_finalgate",
   "applied_skill_ids": [
     "build-ios-apps",
     "test-xcode",
@@ -15,7 +15,7 @@
   ],
   "package_goal_map_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-001-tanktheater-care-scenes/package_goal_map.md",
   "repo_path": "/Users/wangrenzhu/work/TankTheaterCareScenes",
-  "repo_url": null,
+  "repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes",
   "xcodeproj_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes.xcodeproj",
   "commit_refs": [
     "894dd80723e27be7f2d6c98a01fb305e11149d60 Add TankTheater build and runtime evidence",
@@ -49,5 +49,6 @@
   "sample_data_only": false,
   "static_ui_only": false,
   "known_gaps": [],
-  "blockers": []
+  "blockers": [],
+  "github_public_repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes"
 }
