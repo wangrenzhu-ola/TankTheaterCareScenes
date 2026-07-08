@@ -13,6 +13,5 @@ Information about project "TankTheaterCareScenes":
     If no build configuration is specified and -scheme is not passed then "Release" is used.
 
     Schemes:
-        SoapSwirlStudio
         TankTheaterCareScenes
 
