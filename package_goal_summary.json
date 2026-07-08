@@ -1,6 +1,6 @@
 {
   "app_name": "TankTheater Care Scenes",
-  "worker_status": "patched_pending_finalgate",
+  "worker_status": "patched_pending_finalgate_clean",
   "applied_skill_ids": [
     "ios-iap-acceptance",
     "test-xcode",
@@ -19,6 +19,8 @@
   "repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes",
   "xcodeproj_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes.xcodeproj",
   "commit_refs": [
+    "02a87430ad432f55c25db9a4c6ede550cb02062d Record clean status after TankTheater patchback",
+    "b5ebaff0c0a456c35077dbee2972f5cba4763f29 Refresh TankTheater summary after patchback",
     "319b749b39bdac082a3a48e242ea0bd685d29675 Patchback TankTheater FinalGate evidence gaps",
     "72b55db3cc67d0c0f539746e14455b78baa18e58 Add Care Scene save success feedback",
     "2ab624329687ddba5d07d44667eca030ef9274a2 Add TankTheater runtime validator evidence",
@@ -65,8 +67,8 @@
   "schema_version": "appfactory.package_goal_summary.v1",
   "run_id": "codex-5app-production-20260708-095109",
   "branch": "main",
-  "source_commit": "319b749b39bdac082a3a48e242ea0bd685d29675",
-  "release_commit": "319b749b39bdac082a3a48e242ea0bd685d29675",
+  "source_commit": "02a87430ad432f55c25db9a4c6ede550cb02062d",
+  "release_commit": "02a87430ad432f55c25db9a4c6ede550cb02062d",
   "head_commit_at_summary_refresh": "319b749b39bdac082a3a48e242ea0bd685d29675",
   "github_pushed": true,
   "product_goal_bundle_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-001-tanktheater-care-scenes",
