@@ -112,3 +112,23 @@ struct ErrorBanner: View {
         .accessibilityElement(children: .combine)
     }
 }
+
+
+struct SuccessToast: View {
+    let message: String
+    let dismiss: () -> Void
+
+    var body: some View {
+        HStack(spacing: 10) {
+            Image(systemName: "checkmark.circle.fill")
+            Text(message).font(.headline)
+            Spacer()
+            Button("Dismiss", action: dismiss).font(.caption.bold())
+        }
+        .padding()
+        .background(Color(hex: "EAF7F3"), in: Capsule())
+        .shadow(radius: 10, y: 4)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("Care Scene saved.")
+    }
+}

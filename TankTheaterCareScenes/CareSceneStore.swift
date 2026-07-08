@@ -7,6 +7,7 @@ final class CareSceneStore: ObservableObject {
     @Published var draft: CareSceneDraft = .blank { didSet { persistDraft() } }
     @Published var privacyChoice = PrivacyChoice() { didSet { persistPrivacy() } }
     @Published var lastErrorMessage: String?
+    @Published var lastSuccessMessage: String?
     @Published var simulateNextSaveFailure = false
 
     private let recordsURL: URL
@@ -62,6 +63,7 @@ final class CareSceneStore: ObservableObject {
         draft = CareSceneDraft(record: record)
         do { try persistRecords() } catch { throw CareSceneSaveError.storageFailure(error.localizedDescription) }
         lastErrorMessage = nil
+        lastSuccessMessage = "Care Scene saved."
         return record
     }
 

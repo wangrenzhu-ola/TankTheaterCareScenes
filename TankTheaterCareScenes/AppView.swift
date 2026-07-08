@@ -22,5 +22,13 @@ struct AppView: View {
             NavigationStack { SettingsPrivacyView() }
                 .tabItem { Label("Settings", systemImage: "gearshape") }
         }
+        .safeAreaInset(edge: .top) {
+            if let message = store.lastSuccessMessage {
+                SuccessToast(message: message) { store.lastSuccessMessage = nil }
+                    .padding(.horizontal)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+            }
+        }
+        .animation(.spring(response: 0.35, dampingFraction: 0.86), value: store.lastSuccessMessage)
     }
 }
