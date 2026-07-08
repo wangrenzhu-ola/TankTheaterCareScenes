@@ -1,0 +1,173 @@
+{
+  "schema_version": "real_acceptance.v2",
+  "generated_at": "2026-07-08T03:17:23.138608+00:00",
+  "run_id": "codex-5app-production-20260708-095109",
+  "app_index": 1,
+  "app_name": "TankTheater Care Scenes",
+  "package_goal_map_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-001-tanktheater-care-scenes/package_goal_map.md",
+  "repo_path": "/Users/wangrenzhu/work/TankTheaterCareScenes",
+  "github_public_repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes",
+  "acceptance_policy": "goal_amendment_v2_real_acceptance",
+  "finalgate_required": false,
+  "checks": {
+    "github_public_repo_url": {
+      "passed": true,
+      "evidence": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "isPrivate": false,
+        "url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes",
+        "visibility": "PUBLIC"
+      }
+    },
+    "xcodeproj_or_workspace": {
+      "passed": true,
+      "evidence": [
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes.xcodeproj"
+      ]
+    },
+    "xcodebuild_build_log": {
+      "passed": true,
+      "evidence": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_build.log"
+    },
+    "xcodebuild_test_log": {
+      "passed": true,
+      "evidence": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_test.log"
+    },
+    "runtime_readback": {
+      "passed": true,
+      "evidence": {
+        "report": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcode_runtime_report.json",
+        "screenshots": [
+          "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png",
+          "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_relaunch_readback.png",
+          "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_persistence_readback.png"
+        ],
+        "runtime_report": {
+          "xcode_runtime": "launched_on_booted_simulator",
+          "bundle_identifier": "com.tanktheater.carescenes",
+          "app_path": "/Users/wangrenzhu/work/TankTheaterCareScenes/build/DerivedData/Build/Products/Debug-iphonesimulator/TankTheaterCareScenes.app",
+          "screenshot_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png",
+          "install_launch_log_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/simulator_install_launch.log",
+          "accessibility_source_refs": [
+            "TankTheaterCareScenes/HomeView.swift",
+            "TankTheaterCareScenes/CareSceneStudioView.swift",
+            "TankTheaterCareScenes/PaywallView.swift"
+          ],
+          "runtime_blocker": "none"
+        }
+      }
+    },
+    "real_interaction": {
+      "passed": true,
+      "evidence": [
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/AppView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneDetailView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStudioView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/HomeView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PaywallView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/VisualComponents.swift"
+      ]
+    },
+    "local_persistence": {
+      "passed": true,
+      "evidence": [
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/README.md",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneIntents.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStore.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PremiumStore.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PrivacyInfo.xcprivacy"
+      ]
+    },
+    "empty_error_states": {
+      "passed": true,
+      "evidence": [
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/Docs/PrivacyPolicy.md",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/README.md",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneDetailView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneEngine.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStore.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStudioView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/HomeView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/Models.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PaywallView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PremiumStore.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/SettingsPrivacyView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/VisualComponents.swift"
+      ]
+    },
+    "settings_privacy_boundary": {
+      "passed": true,
+      "evidence": [
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/Docs/PrivacyPolicy.md",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/README.md",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/AppView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneDetailView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStore.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/HomeView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/Models.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PrivacyInfo.xcprivacy",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/SettingsPrivacyView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/ios_compliance_acceptance.json",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/local_git_readback.json",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/scenario_matrix.json"
+      ]
+    },
+    "storekit_premium_boundary": {
+      "passed": true,
+      "evidence": [
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/Docs/PrivacyPolicy.md",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/README.md",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/AppView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneDetailView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/HomeView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/Models.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PaywallView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PremiumStore.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/SettingsPrivacyView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/StoreKit/TankTheaterCareScenes.storekit",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/TankTheaterCareScenesApp.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/VisualComponents.swift"
+      ]
+    },
+    "accessibility_labels": {
+      "passed": true,
+      "evidence": [
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStudioView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/HomeView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/PaywallView.swift",
+        "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/VisualComponents.swift"
+      ]
+    },
+    "git_readback": {
+      "passed": true,
+      "evidence": {
+        "branch": "main",
+        "head": "0f8810a17536bae4a9e7493da7a4ea2357b8a9ce",
+        "remote": "git@github.com:wangrenzhu-ola/TankTheaterCareScenes.git",
+        "status_short": [],
+        "recent_commits": [
+          "0f8810a Refresh TankTheater git readback contract",
+          "cb75c7c Patchback TankTheater artifact and UltraQA contracts",
+          "6ac5c58 Refresh TankTheater summary with clean status commit",
+          "02a8743 Record clean status after TankTheater patchback",
+          "b5ebaff Refresh TankTheater summary after patchback",
+          "319b749 Patchback TankTheater FinalGate evidence gaps",
+          "72b55db Add Care Scene save success feedback",
+          "2ab6243 Add TankTheater runtime validator evidence"
+        ]
+      }
+    }
+  },
+  "metadata_only_blockers_ignored": [
+    "summary commit stale",
+    "patchback cycle schema mismatch",
+    "local_git_readback stale",
+    "minimum FinalGate attempts",
+    "release artifact stale"
+  ],
+  "blockers": [],
+  "status": "repo_ready_for_business_patch",
+  "repo_ready": true
+}

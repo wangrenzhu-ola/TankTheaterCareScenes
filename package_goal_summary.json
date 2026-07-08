@@ -1,6 +1,6 @@
 {
   "app_name": "TankTheater Care Scenes",
-  "worker_status": "patched_round2_clean_pending_finalgate",
+  "worker_status": "repo_ready_for_business_patch",
   "applied_skill_ids": [
     "ios-iap-acceptance",
     "test-xcode",
@@ -123,5 +123,8 @@
     "REQ-PREMIUM-001",
     "REQ-AI-001",
     "REQ-APPINTENT-001"
-  ]
+  ],
+  "real_acceptance_report_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/real_acceptance_report.json",
+  "real_acceptance_status": "repo_ready_for_business_patch",
+  "finalgate_required_by_current_amendment": false
 }
