@@ -1,16 +1,10 @@
 {
   "repo_path": "/Users/wangrenzhu/work/TankTheaterCareScenes",
   "branch": "main",
-  "head_before_evidence_commit": "72b55db3cc67d0c0f539746e14455b78baa18e58",
-  "status_short_before_evidence_commit": [
-    "M evidence/xcodebuild_build.log",
-    " M evidence/xcodebuild_test.log",
-    "?? evidence/TankTheaterCareScenes-simulator-app.zip",
-    "?? evidence/artifact_sha256.txt",
-    "?? evidence/runtime_crud_persistence_readback.log",
-    "?? evidence/tanktheater_persistence_readback.png",
-    "?? evidence/tanktheater_relaunch_readback.png"
-  ],
+  "head": "319b749b39bdac082a3a48e242ea0bd685d29675",
   "remote_url": "git@github.com:wangrenzhu-ola/TankTheaterCareScenes.git",
-  "repo_scope": "package_goal_source_only"
+  "remote_head_before_push": "2ab624329687ddba5d07d44667eca030ef9274a2",
+  "status_short_before_summary_update": [],
+  "repo_scope": "package_goal_source_only",
+  "readback_note": "Generated after patchback evidence commit; summary commit follows and push readback is refreshed by git remote."
 }

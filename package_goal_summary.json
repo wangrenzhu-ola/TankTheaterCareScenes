@@ -1,23 +1,28 @@
 {
   "app_name": "TankTheater Care Scenes",
-  "worker_status": "github_pushed_pending_finalgate",
+  "worker_status": "patched_pending_finalgate",
   "applied_skill_ids": [
-    "build-ios-apps",
+    "ios-iap-acceptance",
     "test-xcode",
-    "swiftui-ui-patterns",
-    "swiftui-view-refactor",
     "taste-skill",
     "ios-iap-implementation",
-    "ios-iap-acceptance",
-    "ios-privacy-implementation",
+    "ios-app-intents",
+    "swiftui-view-refactor",
+    "ios_runtime_acceptance",
+    "swiftui-ui-patterns",
+    "build-ios-apps",
     "ios-compliance-acceptance",
-    "ios_runtime_acceptance"
+    "ios-privacy-implementation"
   ],
   "package_goal_map_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-001-tanktheater-care-scenes/package_goal_map.md",
   "repo_path": "/Users/wangrenzhu/work/TankTheaterCareScenes",
   "repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes",
   "xcodeproj_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes.xcodeproj",
   "commit_refs": [
+    "319b749b39bdac082a3a48e242ea0bd685d29675 Patchback TankTheater FinalGate evidence gaps",
+    "72b55db3cc67d0c0f539746e14455b78baa18e58 Add Care Scene save success feedback",
+    "2ab624329687ddba5d07d44667eca030ef9274a2 Add TankTheater runtime validator evidence",
+    "83e38dad514329a3f28ad5ed00eb9e31bfede1dc Refresh TankTheater summary commit refs",
     "635305672bd3aac8b57054105600bbec18ccc400 Record TankTheater GitHub public repo evidence",
     "b6cbcf6bce1cf86933ccf9e88c7f71df6d6669fc Update TankTheater public repo URL",
     "8470b0d7d1d296fbbdd303f047a9b5d63dacd3d6 Record TankTheater delivery evidence summary",
@@ -34,7 +39,9 @@
   "test_xcode_evidence_refs": [
     "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_test.log",
     "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/simulator_install_launch.log",
-    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png"
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_persistence_readback.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_relaunch_readback.png"
   ],
   "xcode_runtime_result_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcode_runtime_report.json",
   "iap_evidence_refs": [
@@ -45,7 +52,8 @@
   ],
   "skill_evidence_refs": {
     "skills/ios-iap-acceptance/SKILL.md": "ios-iap-acceptance",
-    "skills/ios-compliance-acceptance/SKILL.md": "ios-compliance-acceptance"
+    "skills/ios-compliance-acceptance/SKILL.md": "ios-compliance-acceptance",
+    "skills/ios-app-intents/SKILL.md": "ios-app-intents"
   },
   "implemented_with_real_interaction": true,
   "persistence_implemented": true,
@@ -53,5 +61,63 @@
   "static_ui_only": false,
   "known_gaps": [],
   "blockers": [],
-  "github_public_repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes"
+  "github_public_repo_url": "https://github.com/wangrenzhu-ola/TankTheaterCareScenes",
+  "schema_version": "appfactory.package_goal_summary.v1",
+  "run_id": "codex-5app-production-20260708-095109",
+  "branch": "main",
+  "source_commit": "319b749b39bdac082a3a48e242ea0bd685d29675",
+  "release_commit": "319b749b39bdac082a3a48e242ea0bd685d29675",
+  "head_commit_at_summary_refresh": "319b749b39bdac082a3a48e242ea0bd685d29675",
+  "github_pushed": true,
+  "product_goal_bundle_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-001-tanktheater-care-scenes",
+  "contract_consumption_report_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/goal_consumption_report.json",
+  "local_git_readback_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/local_git_readback.json",
+  "build_artifact_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/TankTheaterCareScenes-simulator-app.zip",
+  "artifact_sha256": "3267a7218bff45c98f391dc503a821d13335497f86137dd8f87e94fadcc93cb3",
+  "ultraqa_report_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/ultraqa_report.json",
+  "ultraqa_status": "PASS",
+  "scenario_matrix_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/scenario_matrix.json",
+  "fresh_runtime_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/runtime_crud_persistence_readback.log",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_persistence_readback.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_relaunch_readback.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/simulator_install_launch.log"
+  ],
+  "visual_asset_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/visual_asset_evidence.json",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_launch.png",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_persistence_readback.png"
+  ],
+  "real_interaction_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStudioView.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneDetailView.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStore.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/xcodebuild_test.log"
+  ],
+  "persistence_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneStore.swift",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/runtime_crud_persistence_readback.log",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/tanktheater_relaunch_readback.png"
+  ],
+  "save_success_feedback_ref": "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/save_success_feedback.json",
+  "ios_app_intents_evidence_refs": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/ios_app_intents_acceptance.json",
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/TankTheaterCareScenes/CareSceneIntents.swift"
+  ],
+  "patchback_rounds": [
+    "/Users/wangrenzhu/work/TankTheaterCareScenes/evidence/package_patch_round_1.json"
+  ],
+  "final_gate_run_count": 1,
+  "finalgate_rounds": [],
+  "implemented_requirement_ids": [
+    "REQ-CRUD-001",
+    "REQ-PERSIST-001",
+    "REQ-VIS-001",
+    "REQ-EMPTY-001",
+    "REQ-ERROR-001",
+    "REQ-PRIVACY-001",
+    "REQ-PREMIUM-001",
+    "REQ-AI-001",
+    "REQ-APPINTENT-001"
+  ]
 }
